@@ -23,7 +23,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="오사카"
-        android:layout_margin="3dp"/>
+        android:layout_margin="3dp"
+        android:onClick="onClick"
+        />
 
     <Button
         android:id="@+id/button2"
