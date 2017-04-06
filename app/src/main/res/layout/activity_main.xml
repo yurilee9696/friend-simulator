@@ -32,6 +32,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="석순톡"
+        android:onClick="onClick"
         android:layout_margin="2dp"/>
 
     <Button
@@ -39,6 +40,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="모닝 쿨피스남"
+        android:onClick="onClick"
         android:layout_margin="2dp" />
 
     <Button
@@ -46,6 +48,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="요즘말야"
+        android:onClick="onClick"
         android:layout_margin="2dp"/>
 
     <Button
@@ -53,5 +56,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="졸업식"
+        android:onClick="onClick"
         android:layout_margin="2dp"/>
 </LinearLayout>
