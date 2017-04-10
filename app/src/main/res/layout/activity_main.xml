@@ -17,6 +17,12 @@
         android:layout_marginTop="4dp"
         android:text="이석민"/>
 
+    <ImageView
+        android:id="@+id/friend_visual"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:src="@drawable/dk2" />
 
     <Button
         android:id="@+id/button1"
