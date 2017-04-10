@@ -32,14 +32,15 @@ public class MainActivity extends AppCompatActivity {
                 Log.d(TAG,"버튼3클릭");
                 Toast.makeText(this, "아침에 모닝 콜필수던 내가", Toast.LENGTH_SHORT).show();
                 break;
-            case R.id.button5:
-                Log.d(TAG,"버튼5클릭");
-                Toast.makeText(this, "서공예 졸업식 박제", Toast.LENGTH_SHORT).show();
-                break;
             case R.id.button4:
                 Log.e(TAG,"버튼잘못클릭");
                 Toast.makeText(this, "요즘 말야 내가 말야 생각이 많아 댓!댓!댓!", Toast.LENGTH_SHORT).show();
                 break;
+            case R.id.button5:
+                Log.d(TAG,"버튼5클릭");
+                Toast.makeText(this, "서공예 졸업식 박제", Toast.LENGTH_SHORT).show();
+                break;
+
             default:
                 Toast.makeText(this, "다시 선택해주세요!", Toast.LENGTH_SHORT).show();
                 break;
