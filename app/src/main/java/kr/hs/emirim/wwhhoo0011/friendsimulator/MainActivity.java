@@ -25,22 +25,27 @@ public class MainActivity extends AppCompatActivity {
         switch(view.getId()){
             case R.id.button1:
                 Log.d(TAG,"버튼1클릭");
+                mimageViewFreindVisual.setImageResource(R.drawable.dk);
                 Toast.makeText(this, "5~~~~~사카", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.button2:
                 Log.d(TAG,"버튼2 클릭");
+                mimageViewFreindVisual.setImageResource(R.drawable.dk1);
                 Toast.makeText(this, "석순톡 순석톡 카카오톡 에브리바디톡", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.button3:
                 Log.d(TAG,"버튼3 클릭");
+                mimageViewFreindVisual.setImageResource(R.drawable.dk2);
                 Toast.makeText(this, "아침에 모닝 콜필수던 내가", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.button4:
                 Log.e(TAG,"버튼 잘못 클릭");
+                mimageViewFreindVisual.setImageResource(R.drawable.dk4);
                 Toast.makeText(this, "요즘 말야 내가 말야 생각이 많아 댓!댓!댓!", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.button5:
                 Log.d(TAG,"버튼5클릭");
+                mimageViewFreindVisual.setImageResource(R.drawable.dk5);
                 Toast.makeText(this, "서공예 졸업식 박제", Toast.LENGTH_SHORT).show();
                 break;
 
