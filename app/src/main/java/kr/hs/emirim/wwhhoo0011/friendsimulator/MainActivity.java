@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
         mimageViewFreindVisual=(ImageView) findViewById(R.id.friend_visual);
         Log.d(TAG,"activity_main 레이아웃 세팅");
     }
+    //
     void onClick(View view){
         Log.d(TAG,"onClick 메소드 호출");
         Log.d(TAG,"클릭된 뷰 ");
